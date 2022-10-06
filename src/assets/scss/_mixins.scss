@@ -1,0 +1,9 @@
+@use 'params' as *;
+
+@mixin monument {
+	font-family: 'PP Monument Extended', sans-serif;
+}
+
+@mixin width {
+	max-width: calc($max-width + 2 * var(--space));
+}

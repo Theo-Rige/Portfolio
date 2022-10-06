@@ -1,0 +1,34 @@
+// Reset
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+// Base
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.noise {
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	background: url('@/assets/images/noise.webp') no-repeat center / cover;
+}
